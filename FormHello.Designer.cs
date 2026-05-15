@@ -28,18 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
+            button1 = new Button();
             SuspendLayout();
+            // 
+            // button1
+            // 
+            button1.Location = new Point(676, 365);
+            button1.Name = "button1";
+            button1.Size = new Size(406, 222);
+            button1.TabIndex = 0;
+            button1.Text = "Click Me";
+            button1.UseVisualStyleBackColor = true;
             // 
             // FormHello
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1887, 966);
+            Controls.Add(button1);
             Name = "FormHello";
             Text = "CIA Program";
             ResumeLayout(false);
         }
 
         #endregion
+
+        private Button button1;
     }
 }
